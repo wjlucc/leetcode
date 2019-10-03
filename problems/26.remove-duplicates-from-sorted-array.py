@@ -5,7 +5,7 @@
 #
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        # 使用双指针
+        # tag: 双指针
         if (len(nums) <= 1):
             return len(nums)
         
